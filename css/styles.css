@@ -33,5 +33,16 @@ nav a{
     background-image: url('../imgs/img1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    opacity: 0.8;
     height: 100vh;
+    text-align: center;
 }
+.top-text{
+    color: white;
+    padding-top: 20%;
+
+}
+.top-text h1 {
+    padding: 10px;
+    font-weight: bold;
+  }
