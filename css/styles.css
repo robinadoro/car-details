@@ -51,4 +51,24 @@ nav a{
     padding-top: 3%;
     padding-bottom: 3%;
   }
+  .car-details input[type=text] {
+    /* float: right; */
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  .get-car{
+      background-image: url('../imgs/img4.jpg');    
+      background-repeat: no-repeat;
+      background-size: cover;  
+      color: white;
+      text-align: center;
+  }
+  .car-display p{
+      border: 1px solid black;
+      padding: 10%;
+      /* height: 10%; */
+  }
 
