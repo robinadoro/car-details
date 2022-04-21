@@ -29,3 +29,9 @@ nav a{
     /* padding: 30%; */
     background-color: #D31B27;
 }
+.top-page{
+    background-image: url('../imgs/img1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
