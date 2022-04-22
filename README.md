@@ -39,7 +39,7 @@ Not currently known of. Open to project improvement suggestions.
 - An access to the Internet
 
 ## Live Site
-[Available here: ](https://github.com/robinadoro/car-details)
+[Available here: ](https://robinadoro.github.io/car-details/)
 
 
 ## LICENSE
