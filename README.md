@@ -43,7 +43,7 @@ Not currently known of. Open to project improvement suggestions.
 
 
 ## LICENSE
-[MIT LICENSE](https://github.com/robinadoro/The-Pie/blob/main/LICENCE)
+[MIT LICENSE](https://github.com/robinadoro/car-details/blob/main/LICENSE)
 
 ## AUTHOR
 [Robinson Idagiza](https://github.com/robinadoro)
