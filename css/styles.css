@@ -21,6 +21,10 @@ nav a {
   font-weight: bold;
   font-size: x-large;
 }
+nav ul :hover{
+  color: #2a2827;
+
+}
 .navbar {
   margin-left: 30%;
 }
