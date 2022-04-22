@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Car Details</title>
+    <title>Car Search</title>
     <link rel="shortcut icon" href="./imgs/icons8-car.gif">
 </head>
 
@@ -59,7 +59,10 @@
             <div class="get-car">
                 <div class="car-details">
                     <h1>Get Car Details</h1>
-                    <input type="text" placeholder="Search Car">
+                    <div style="position: relative; border:1px solid red">
+                        <input type="text" placeholder="Search Car" id="search_car">
+                        <div style="position: absolute; top:0; margin:0 auto;" id="result"></div>
+                    </div>
                 </div>
                 <div class="car-display">
                     <h5>Here are the car details</h5>
@@ -91,11 +94,12 @@
     <footer>
         <p>Car Search</p>
         <p>2022</p>
-    </footer>  
+    </footer>
 
-    
+
 
 
 </body>
+<script src="./js/script.js"></script>
 
 </html>

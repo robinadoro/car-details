@@ -13,8 +13,9 @@ nav ul {
 nav a {
   text-decoration: none;
   border: 1px solid #2a2827;
-  color: white;
-  background-color: #2a2827;
+  border: none;
+  color: black;
+  background-color: white;
   /* padding: 1%; */
   border-radius: 10px;
   font-weight: bold;
