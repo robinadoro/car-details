@@ -49,7 +49,7 @@ function showResults(val) {
 	})
 
 	function pickSelection(event) {
-		console.log('Each brand '+ event.target.textContent)
+		console.log('Each brand ' + event.target.textContent)
 	}
 }
 
@@ -77,10 +77,10 @@ function download(filename, text) {
 // 	})
 // 	.catch(err => console.error(err));
 
-	// fetch('https://cars-specs-automotive-catalog.p.rapidapi.com/api/cars/full-specs/Honda/Civic', options)
-	// .then(response => response.json())
-	// .then((response)=>{
-	// 	console.log(response.data);
-	// 	download('honda_civic.json', JSON.stringify(response));
-	// })
-	// .catch(err => console.error(err));
+// fetch('https://cars-specs-automotive-catalog.p.rapidapi.com/api/cars/full-specs/Honda/Civic', options)
+// .then(response => response.json())
+// .then((response)=>{
+// 	console.log(response.data);
+// 	download('honda_civic.json', JSON.stringify(response));
+// })
+// .catch(err => console.error(err));

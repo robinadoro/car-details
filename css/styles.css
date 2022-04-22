@@ -30,7 +30,7 @@ nav a {
   background-color: #d31b27;
 }
 .top-page {
-  background-image: url("../imgs/img3.jpg");
+  background-image: url("../imgs/mancar.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
@@ -38,8 +38,8 @@ nav a {
   text-align: center;
 }
 .top-text {
-  color: white;
-  padding-top: 20%;
+  /* color: white; */
+  padding-top:14%;
 }
 .top-text h1 {
   padding: 10px;
@@ -63,7 +63,9 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   /* color: white; */
+  background-color: grey;
   text-align: center;
+  padding: 2%;
 }
 .car-display p {
   border: 1px solid black;
