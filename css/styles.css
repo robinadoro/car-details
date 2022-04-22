@@ -59,10 +59,10 @@ nav a {
   font-size: 17px;
 }
 .get-car {
-  background-image: url("../imgs/img4.jpg");
+  /* background-image: url("../imgs/img4.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
+  /* color: white; */
   text-align: center;
 }
 .car-display p {

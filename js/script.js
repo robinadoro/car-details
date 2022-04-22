@@ -42,7 +42,7 @@ function showResults(val) {
 	for (i = 0; i < terms.length; i++) {
 		list += '<li>' + terms[i] + '</li>';
 	}
-	res.innerHTML = '<ul style="list-style:none; color:#fff; cursor:pointer;" class="results">' + list + '</ul>';
+	res.innerHTML = '<ul style="list-style:none; color:#fff; cursor:pointer; overflow-y: scroll; height:300px; " class="results">' + list + '</ul>';
 	const selection = document.querySelectorAll(".results");
 	selection.forEach(element => {
 		element.addEventListener('click', pickSelection)
@@ -76,3 +76,11 @@ function download(filename, text) {
 // 		download("car_brands.json", JSON.stringify(response));
 // 	})
 // 	.catch(err => console.error(err));
+
+	// fetch('https://cars-specs-automotive-catalog.p.rapidapi.com/api/cars/full-specs/Honda/Civic', options)
+	// .then(response => response.json())
+	// .then((response)=>{
+	// 	console.log(response.data);
+	// 	download('honda_civic.json', JSON.stringify(response));
+	// })
+	// .catch(err => console.error(err));
