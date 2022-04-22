@@ -20,16 +20,6 @@
 ### Installation Process
 HTTPS: [git clone](https://github.com/robinadoro/car-details)
 
-## Behaviour Driven Development
-User orders pizza
-User selects flavour of pizza
-User selects siza of pizza
-User selects Crust type
-User selects toppings
-User selects number of pizza
-User selects option to be deliverd or not
-User gets to know total cost
-
 ## Technology Used
 
 - HTML - which was used to build the structure of the pages.
