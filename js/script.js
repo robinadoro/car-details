@@ -42,7 +42,7 @@ function showResults(val) {
 	for (i = 0; i < terms.length; i++) {
 		list += '<li>' + terms[i] + '</li>';
 	}
-	res.innerHTML = '<ul style="list-style:none; color:#fff; cursor:pointer; overflow-y: scroll; height:300px; " class="results">' + list + '</ul>';
+	res.innerHTML = '<ul style="list-style:none; color:#fff; cursor:pointer; overflow-y: scroll; height:300px;" class="results">' + list + '</ul>';
 	const selection = document.querySelectorAll(".results");
 	selection.forEach(element => {
 		element.addEventListener('click', pickSelection)
